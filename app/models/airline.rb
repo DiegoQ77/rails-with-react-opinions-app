@@ -8,6 +8,17 @@ class Airline < ApplicationRecord
   end
 
   def avg_score
+    # p reviews.average(:title)
+    return 0 unless reviews.size.positive?
+
+    p 'avg_score 13 -------'
+    p reviews
+    p reviews.average(:score)
+
     reviews.average(:score).round(2).to_f
+  end
+
+  def logica
+    10
   end
 end
