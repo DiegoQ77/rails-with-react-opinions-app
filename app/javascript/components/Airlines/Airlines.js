@@ -51,7 +51,7 @@ export const Airlines = () => {
   return (
     <Home>
       <Header>
-        <h3>OpenFlights</h3>
+        <h1>OpenFlights</h1>
         <Subheader>Honest, unbised airline reviews</Subheader>
       </Header>
       <Grid>
